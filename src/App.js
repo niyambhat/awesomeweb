@@ -6,7 +6,7 @@ import Header from "./components/header";
 import Navigation from "./components/navigation";
 
 import CaseStudies from "./pages/caseStudies";
-import Approach from "./pages/approach";
+
 import Services from "./pages/services";
 import About from "./pages/about";
 import Home from "./pages/home";
@@ -14,7 +14,6 @@ import Home from "./pages/home";
 const routes = [
   { path: "/", name: "Home", Component: Home },
   { path: "/case-studies", name: "caseStudies", Component: CaseStudies },
-  { path: "/approach", name: "approach", Component: Approach },
   { path: "/services", name: "services", Component: Services },
   { path: "/about-us", name: "about", Component: About }
 ];

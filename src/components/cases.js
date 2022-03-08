@@ -5,20 +5,20 @@ import { ReactComponent as CasesPrev } from "../assets/arrow-left.svg";
 const caseStudies = [
   {
     id: 1,
-    subtitle: "Curology",
-    title: "A custom formula for your skin’s unique needs",
+    subtitle: "ERP",
+    title: "A custom web solution for complex business needs.",
     img: "curology-min"
   },
   {
     id: 2,
-    subtitle: "Yourspace",
-    title: "Open space floor plans for you next venture",
+    subtitle: "Contacts",
+    title: "Secure your personal contacts",
     img: "yourspace-min"
   },
   {
     id: 3,
-    subtitle: "Lumin",
-    title: "For your best look ever",
+    subtitle: "Fotas",
+    title: "Photography Website",
     img: "lumin-min"
   }
 ];

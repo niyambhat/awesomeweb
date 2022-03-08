@@ -1,14 +1,26 @@
 import React from "react";
+import Framer from "../components/Framer";
+import '../styles/global.scss'
 
-const CaseStudies = () => {
+
+const CaseStudies = ({imageDetails, image}) => {
   return (
-    <div className='page'>
-      <div className='container'>
-        <div className='row'>
-          <h3>This is the case studies page</h3>
+ 
+    <div className='container'>
+          <div className = "hero">
+         <div className='row'>
+           <div className="thumbnail"  ref={image}
+              style={{
+                width: imageDetails.width,
+                height: imageDetails.height,
+              }}></div>
+         <div className="frame">
+        <Framer/>
         </div>
-      </div>
+        </div>
+        </div>
     </div>
+
   );
 };
 

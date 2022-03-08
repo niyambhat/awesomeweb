@@ -1,0 +1,39 @@
+
+.frame{
+  overflow: hidden;
+}
+  .newArea{
+ padding-top:130px;
+  }
+
+  .hero{
+    height: 100vh;
+  }
+
+  .hero .row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .model{
+      font-weight: 400;
+      font-size: 200px;
+      @media (max-width: 1440px) {
+        font-size: 128px;
+      }
+    }
+}
+
+
+.bottom{
+width:100%;
+
+}

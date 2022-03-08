@@ -1,15 +1,17 @@
 import React from "react";
+import Case from "../components/Case";
 
 const Services = () => {
+  
   return (
-    <div className='page'>
-      <div className='container'>
-        <div className='row'>
-          <h3>This is the services page</h3>
+      <>
+    <div className='container'>
+         <div className='row'>
+        <Case/>
         </div>
-      </div>
-    </div>
-  );
+  </div>
+    </>
+  )
 };
 
 export default Services;

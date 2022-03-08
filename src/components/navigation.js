@@ -14,11 +14,7 @@ const Navigation = () => {
                   Case Studies
                 </NavLink>
               </li>
-              <li>
-                <NavLink to='/approach' exact>
-                  Approach
-                </NavLink>
-              </li>
+            
               <li>
                 <NavLink to='/services' exact>
                   Services
@@ -38,7 +34,7 @@ const Navigation = () => {
                 <li className='nav-info-label'>Email</li>
                 <li>
                   <NavLink to='/contact' exact>
-                    Get in touch with us
+                    Get in touch 
                   </NavLink>
                 </li>
                 <li>
@@ -49,13 +45,13 @@ const Navigation = () => {
               </ul>
               <ul className='nav-info'>
                 <li className='nav-info-label'>Headquarter</li>
-                <li>Route du Jura 49</li>
-                <li>1700 Fribourg</li>
-                <li>Switzerland</li>
+                <li>Perth</li>
+                <li>Western Australia</li>
+                
               </ul>
               <ul className='nav-info'>
                 <li className='nav-info-label'>Phone</li>
-                <li>+41 (0) 79 510 28 70</li>
+                <li>+000000000</li>
               </ul>
               <ul className='nav-info'>
                 <li className='nav-info-label'>Legal</li>
